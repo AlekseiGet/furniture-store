@@ -51,7 +51,7 @@ export const FurnityreBodyIcon = createContext([
       {image: chair2 , text: "Стулья", price: "1 000 руб."},
       {image: chestjpg, text: "Комоды", price: "1 000 руб."},
       {image: dainingroom, text: "Мебель для кухни", price: "1 000 руб."},
-      {image: hall2, text: "Прихожка", price: "1 000 руб."},
+      {image: hall2, text: "Мебель в прихожую", price: "1 000 руб."},
       {image: sofa2, text: "Мягкая мебель", price: "1 000 руб."},
       {image: kids, text: "Для детей", price: "1 000 руб."},
       {image: matrases, text: "Матрасы", price: "1 000 руб."},
