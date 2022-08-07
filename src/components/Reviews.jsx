@@ -8,26 +8,60 @@ import { useParams } from 'react-router-dom';
 import siluet from "../img/siluet.png"
 import NewReviews from './NewReviews';
 import upsImage from "../img/ups.jpg"
+import { getComentCount } from '../utils/comentsPage';
+import { useMemo } from 'react';
+import { useRef } from 'react';
 
 const Reviews = () => { 
     const [coment, setComent ] = useState([]);
-   
+    const [totalComent, setTotalComent] = useState(0);
+    const [limit, setLimit] = useState(4);
+    const [page, setPage] = useState(1);
+    const [modal, setModal] = useState(false);
+
+    let pagesArray = [];
+  for (let i = 0; i < totalComent; i++) {
+    pagesArray.push(i + 1) 
+  }
 
     async function fetchPosts(coment, setComent) {
-        const response = await axios.get("https://jsonplaceholder.typicode.com/users");   
-        setComent(response.data);       
+        const response = await ReviewsServise.getComent(limit, page) 
+      setComent(response.data);
+      const totalComents = (response.headers['x-total-count']) ; 
+      setTotalComent(getComentCount(totalComents, limit) )
      }
+
     useEffect(() => {
        fetchPosts(coment, setComent);
        
-    }, [])
-    
+    }, [page])
+
+  const createComent = (newComent) => {
+    setComent([...coment, newComent]);
+  }
+  let [visibl, setVisibl] = useState("reviews_conteiner content");
+  const opacity = useRef();
+  const observer = useRef();
+
+  useEffect(() => {
+    var callback = function (entries, observer) {
+      if (entries[0].isIntersecting) {
+        setVisibl("reviews_conteiner content start");
+
+      }
+    };
+    observer.current = new IntersectionObserver(callback);
+    observer.current.observe(opacity.current)
+  })
+
+
+
     return (     
-        <div className='requesites'>
+        <div ref={opacity} className='requesites'>
             <h2>Отзывы наших клиентов</h2>   
                      {coment.length < 1
                         ? <h2> Загрузка</h2> 
-                        : <div className="reviews_conteiner content" >
+                        : <div  className={visibl} >
                           {coment.map( e => 
                           <div key={e.id} className="reviews_item">
                            <div className="reviews_item_image">
@@ -39,15 +73,14 @@ const Reviews = () => {
                               </div>
                                <div className="reviews_item_span">
                                 <span className='reviews_name'> {e.name}</span>
-                                <span className='reviews_name'> {e.phone} </span>
-                                <span>{e.company.catchPhrase}</span>
+                                <span>{e.body}</span>
                               </div>
                             </div>
                           </div>
                     )}
                         </div>
                     }   
-                <NewReviews/> 
+        <NewReviews page={page} setPage={setPage} totalComent={totalComent} create={createComent} /> 
         </div>
     );
 };

@@ -13,8 +13,8 @@ const Header = () => {
     useEffect(() => {
         var callback = function(entries,observer){
           if (entries[0].isIntersecting) {
-              setVisibl("header_background  new" );
-             // console.log(visibl);срабатывает на каждый раз -- плохо
+              setVisibl("header_background  start" );
+
           }
         };
             observer.current = new IntersectionObserver(callback);
@@ -26,7 +26,7 @@ const Header = () => {
             <header>
                 <ToolBar/>
                 <LeftBar/>
-                <div ref={opacity} style={{ visibl }} className={visibl}>                  
+                <div ref={opacity}  className={visibl}>                  
                 </div>
             </header>  
         </div>
