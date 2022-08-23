@@ -7,7 +7,7 @@ const LeftBarItem = () => {
     const [] = useContext(FurnitureBox);
  
     return (
-        <div className='left_bar_box'>
+        <div id="catalog" className='left_bar_box'>
             {FurnitureBox._currentValue.map(bar => 
                 <div className='left_bar_item' key={bar.image}>
                   <div className="left_bar_imag">

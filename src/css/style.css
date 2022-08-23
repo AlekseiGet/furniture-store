@@ -94,8 +94,10 @@ body {
   max-width: 1445px;
   min-width: 90%;
   min-height: 100%;
-  margin: 0px auto;
+  margin: 5px auto;
   overflow: auto;
+  border: 1px solid black;
+  border-radius: 5px;
 }
 
 h2 {
@@ -123,10 +125,8 @@ h3 {
   position: absolute;
   top: 100px;
   left: 0px;
-  z-index: -1;
   background: url(/src/img/header-background.jpg) no-repeat;
   background-size: 100% 120%;
-  opacity: 0;
   transition-duration: 3.5s;
 }
 
@@ -139,6 +139,7 @@ h3 {
   position: -webkit-sticky;
   position: sticky;
   top: 0px;
+  z-index: 1;
   width: 100%;
   height: 100px;
   padding: 0px 10vw;
@@ -229,12 +230,12 @@ h3 {
 }
 
 .furniture_item {
-  width: 300px;
-  height: 300px;
+  width: 30%;
+  height: 30%;
   margin: 10px;
   box-shadow: 2px 2px 15px 12px rgb(221, 223, 228);
   background: rgb(243, 238, 238);
-  border-radius: 30px;
+  border-radius: 20px;
   overflow: hidden;
   position: relative;
   opacity: 0;
@@ -244,10 +245,11 @@ h3 {
 .furniture_item img {
   width: 100%;
   height: 100%;
+  transition-duration: 1.5s;
 }
 
-.furniture_item:hover {
-  box-shadow: 2px 2px 15px 12px rgb(20, 76, 218);
+.furniture_item:hover img {
+  transform: scale(1.2, 1.2);
 }
 
 .furniture_item_title {

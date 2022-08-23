@@ -1,0 +1,47 @@
+
+.container {
+    width: 100%;
+    height: 400px;
+}
+
+.row {
+    height: 100%;
+}
+
+.col {
+    height: 100%;
+}
+
+.block {}
+
+.carousel_item {
+    margin-top: 15vw;
+    height: 20vw;  
+}
+.carousel_box{
+   margin-bottom: 10px;
+   font-size: 2em;
+
+}
+
+.carousel_span {
+    display: inline-block;
+    margin: 0px 5px;
+}
+
+.carousel_big{
+   font-size: 3.5em;
+   font-weight: 900;
+}
+.carousel_title{
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.carousel_image{
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    right: -10%;
+    top: -40%;
+}

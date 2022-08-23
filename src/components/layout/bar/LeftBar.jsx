@@ -1,9 +1,11 @@
 import React from 'react';
 import LeftBarItem from './LeftBarItem';
+import { CatalogLeft } from "./ToolBar";
+
 
 const LeftBar = () => {
     return (
-        <div className='left_bar_conteiner' >
+        <div style={CatalogLeft} className='left_bar_conteiner' >
           
              <LeftBarItem/>
             
