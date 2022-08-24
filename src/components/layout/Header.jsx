@@ -7,13 +7,27 @@ import LeftBar from './bar/LeftBar';
 import ToolBar from './bar/ToolBar';
 
 const Header = () => {
+    const [CatalogLeft, setCatalogLeft] = useState({});
+    const [catalogVisibil, setCatalogVisibil] = useState(false);
    
-  
+
+    useEffect(() => {
+       if (catalogVisibil === true) {
+            setCatalogLeft({            
+                transform: 'translateX(250px)',
+                background: 'rgba(255, 0, 0, 0.699)'
+            }) 
+        } else {
+             setCatalogLeft({            
+            })
+        }
+    }, [catalogVisibil])
+
     return (
         <div>
             <header>
-                <ToolBar/>
-                <LeftBar/>
+                <ToolBar catalogVisibil={catalogVisibil} setCatalogVisibil={setCatalogVisibil}/>
+                <LeftBar catalogLeft={CatalogLeft} />
                 <div  className="header_background">   
                  <Banner/>              
                 </div>

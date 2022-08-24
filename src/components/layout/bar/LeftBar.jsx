@@ -1,11 +1,11 @@
 import React from 'react';
 import LeftBarItem from './LeftBarItem';
-import { CatalogLeft } from "./ToolBar";
 
 
-const LeftBar = () => {
+
+const LeftBar = (props) => {
     return (
-        <div style={CatalogLeft} className='left_bar_conteiner' >
+        <div style={props.catalogLeft} className='left_bar_conteiner' >
           
              <LeftBarItem/>
             

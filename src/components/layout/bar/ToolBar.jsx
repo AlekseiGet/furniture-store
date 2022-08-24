@@ -1,17 +1,15 @@
 import React from 'react';
-import { createContext } from 'react';
 import icon from "../../../../src/img/yX3CqllsVwg.jpg"
 
  
 
-const ToolBar = () => {
-
-  let CatalogLeft = createContext();// как то передать в LeftBar
+const ToolBar = (props) => {
   const catalogActive = () => {
-    CatalogLeft = {
-      transform: 'translateX(250px)',
-      background: 'rgba(255, 0, 0, 0.699)'
-       } ;
+    if (props.catalogVisibil === false) {
+      props.setCatalogVisibil (true)
+    } else {
+      props.setCatalogVisibil(false)
+    }  
   };
 
  
@@ -37,4 +35,4 @@ const ToolBar = () => {
 };
 
 export default ToolBar;
-export { CatalogLeft} ;
+//export { CatalogLeft };
