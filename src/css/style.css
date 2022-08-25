@@ -172,6 +172,11 @@ h3 {
   letter-spacing: 2px;
   font-size: 1.4em;
 }
+.bar_tool * {
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+}
 
 .left_bar_conteiner {
   position: fixed;
@@ -180,6 +185,7 @@ h3 {
   z-index: 3;
   width: 300px;
   height: 100vh;
+  padding-right: 50px;
   border-radius: 20px;
   box-shadow: inset 2px 2px 15px 2px rgb(228, 221, 228);
   background: white;

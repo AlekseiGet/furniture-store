@@ -12,7 +12,7 @@ const Header = () => {
    
 
     useEffect(() => {
-       if (catalogVisibil === true) {
+       if (catalogVisibil) {
             setCatalogLeft({            
                 transform: 'translateX(250px)',
                 background: 'rgba(255, 0, 0, 0.699)'
@@ -22,12 +22,11 @@ const Header = () => {
             })
         }
     }, [catalogVisibil])
-
     return (
-        <div>
-            <header>
+        <div >
+            <header >
                 <ToolBar catalogVisibil={catalogVisibil} setCatalogVisibil={setCatalogVisibil}/>
-                <LeftBar catalogLeft={CatalogLeft} />
+                <LeftBar catalogLeft={CatalogLeft} catalogVisibil={catalogVisibil} setCatalogVisibil={setCatalogVisibil} />
                 <div  className="header_background">   
                  <Banner/>              
                 </div>
