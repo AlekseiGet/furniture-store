@@ -1,17 +1,27 @@
 {
   "files": {
-    "main.css": "/furniture-store/static/css/main.2947cb6a.css",
-    "main.js": "/furniture-store/static/js/main.49956157.js",
+    "main.css": "/furniture-store/static/css/main.a4c3699e.css",
+    "main.js": "/furniture-store/static/js/main.d8485645.js",
     "static/media/awards2.jpg": "/furniture-store/static/media/awards2.c5d817bdef411d6d452e.jpg",
     "static/media/awards4.jpg": "/furniture-store/static/media/awards4.1e9b45ad438edaa13d43.jpg",
     "static/media/stock.png": "/furniture-store/static/media/stock.5c247cb9b73c5c9aa698.png",
     "static/media/awards1.jpg": "/furniture-store/static/media/awards1.8ac40fb06b0cfb0d806d.jpg",
     "static/media/header-background.jpg": "/furniture-store/static/media/header-background.36f1529aa7fd6638f76a.jpg",
     "static/media/chestjpg.jpg": "/furniture-store/static/media/chestjpg.2d08b320af96846640e4.jpg",
+    "static/media/Map.png": "/furniture-store/static/media/Map.60a35af7db917af31251.png",
+    "static/media/slider5.webp": "/furniture-store/static/media/slider5.0439ad61b44df030181a.webp",
     "static/media/chair.png": "/furniture-store/static/media/chair.77c6224c198221094526.png",
     "static/media/tabl.png": "/furniture-store/static/media/tabl.d06c5f1f73eb18f33e1d.png",
+    "static/media/slider6.webp": "/furniture-store/static/media/slider6.3f710f15112e56f98efd.webp",
     "static/media/i_P4fZIxx3o.png": "/furniture-store/static/media/i_P4fZIxx3o.e813a95c71b633a3f1f5.png",
+    "static/media/slider8.webp": "/furniture-store/static/media/slider8.373b7c4edcef934ba199.webp",
+    "static/media/slider4.webp": "/furniture-store/static/media/slider4.91ab6fb25acd258a1c6d.webp",
+    "static/media/errorPage.jpg": "/furniture-store/static/media/errorPage.1714f3faee20a97d2000.jpg",
+    "static/media/slider7.webp": "/furniture-store/static/media/slider7.937fc5d8a515944b1ce2.webp",
+    "static/media/0179001.jpg": "/furniture-store/static/media/0179001.e6c761928f931bc3ac32.jpg",
     "static/media/badroom.png": "/furniture-store/static/media/badroom.0665d7850d5839f0f98d.png",
+    "static/media/slider9.webp": "/furniture-store/static/media/slider9.7b3e4ee58d231cd91b01.webp",
+    "static/media/map.png": "/furniture-store/static/media/map.70d8ccd5c91a716390a6.png",
     "static/media/dainingroom.png": "/furniture-store/static/media/dainingroom.19ca77c995e6fa133e34.png",
     "static/media/awards3.jpg": "/furniture-store/static/media/awards3.df3aedf90d16a34d33dd.jpg",
     "static/media/kids.png": "/furniture-store/static/media/kids.aa1752a51bde06d96aad.png",
@@ -23,6 +33,7 @@
     "static/media/bad.png": "/furniture-store/static/media/bad.22b38907582515fa2eb5.png",
     "static/media/matrases.png": "/furniture-store/static/media/matrases.5360ca24256b9b222a86.png",
     "static/media/offise.png": "/furniture-store/static/media/offise.d7e531c74e19e121493b.png",
+    "static/media/i.webp": "/furniture-store/static/media/i.6eda31868d655a667ebd.webp",
     "static/media/sber.svg": "/furniture-store/static/media/sber.5c910da7270d155ae2ad373fabb7a22e.svg",
     "static/media/child-2.svg": "/furniture-store/static/media/child-2.524d5169ad5a8ce72e5e0b3a4efbd052.svg",
     "static/media/mattress.svg": "/furniture-store/static/media/mattress.2a80c3e90daa69729ff0eb9ff5b6b91f.svg",
@@ -40,11 +51,11 @@
     "static/media/hall-4.svg": "/furniture-store/static/media/hall-4.0d68cc344ff25255b1bf3ab4c5b0d98d.svg",
     "index.html": "/furniture-store/index.html",
     "static/media/table-3.svg": "/furniture-store/static/media/table-3.2e29a907e489afffa4625b85ed0bbc6a.svg",
-    "main.2947cb6a.css.map": "/furniture-store/static/css/main.2947cb6a.css.map",
-    "main.49956157.js.map": "/furniture-store/static/js/main.49956157.js.map"
+    "main.a4c3699e.css.map": "/furniture-store/static/css/main.a4c3699e.css.map",
+    "main.d8485645.js.map": "/furniture-store/static/js/main.d8485645.js.map"
   },
   "entrypoints": [
-    "static/css/main.2947cb6a.css",
-    "static/js/main.49956157.js"
+    "static/css/main.a4c3699e.css",
+    "static/js/main.d8485645.js"
   ]
 }
