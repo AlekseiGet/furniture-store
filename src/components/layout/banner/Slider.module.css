@@ -1,0 +1,53 @@
+.container {
+    min-width: 100vw;
+ 
+}
+
+.row { 
+}
+
+.col {   
+}
+
+.block {}
+
+.carousel_item {
+    height: 70vh;
+}
+
+.carousel_box {
+    margin-bottom: 10px;
+    font-size: 2em;
+    border-radius: 40px;
+    background: rgba(255, 255, 255, 0.548);
+}
+
+.carousel_text {
+    display: inline-block;
+    margin: 0px 5px;
+    font-weight: 500;
+    font-style: italic;
+    color: rgb(179, 19, 19); 
+}
+
+.carousel_big {
+    font-size: 3.5em;
+    font-weight: 900;
+    
+}
+
+.carousel_title {
+    color: rgb(63, 54, 54);
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.carousel_image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+   
+}
+
+
+

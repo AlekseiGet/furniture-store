@@ -8,7 +8,7 @@ import Reviews from "../Pages/Reviews";
 import Stocks from '../Pages/Stocks';
 
 export const  publicRoutes = [
-    { exact: true, path: "", element: <Home/>, key: "1" },
+    { exact: true, path: "/home", element: <Home/>, key: "1" },
     { exact: true, path: "/catalog", element: <Catalog/> , key: "2" },
     { exact: true, path: "/entrance", element: <Entrance/> , key: "3" },
     { exact: true, path: "/resume", element: <Resume/> , key: "4" },
@@ -20,7 +20,7 @@ export const  publicRoutes = [
 ]
 
 export const privateRoutes = [
-    { exact: true, path: "", element: <Home/>, key: "1" },
+    { exact: true, path: "/home", element: <Home/>, key: "1" },
     { exact: true, path: "/error", element: <Error/>, key: "7" },
     { exact: true, path: "*", element: <Navigate to="/error" replace />, key: "end" },
     

@@ -19,7 +19,10 @@ const ToolBar = (props) => {
       <div className="tool_bar_box" >
         <div className='tool_bar'>
           <div className="bar_icon">
-            <img src={icon} alt="ups" />
+            <Link to="/home">
+              <img src={icon} alt="ups" />
+            </Link>
+            
           </div>
           <div className="bar_tool">
                 <span>+7 (938) 150-24-64</span>

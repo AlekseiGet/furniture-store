@@ -45,3 +45,11 @@
     right: -10%;
     top: -40%;
 }
+.link{
+    color: white;
+    text-decoration: none;
+    padding: 1.2em 0;
+}
+.link:hover{
+    color: white;  
+}

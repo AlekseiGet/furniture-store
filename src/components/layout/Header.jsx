@@ -27,9 +27,6 @@ const Header = () => {
             <header >
                 <ToolBar catalogVisibil={catalogVisibil} setCatalogVisibil={setCatalogVisibil}/>
                 <LeftBar catalogLeft={CatalogLeft} catalogVisibil={catalogVisibil} setCatalogVisibil={setCatalogVisibil} />
-                <div  className="header_background">   
-                 <Banner/>              
-                </div>
             </header>  
         </div>
     );
