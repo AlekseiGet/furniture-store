@@ -78,9 +78,11 @@
 .resume_history{
     margin: 0px 50px;
 }
-.resume_footer {}
+.resume_footer {
+    margin: 50px 0px;
+}
 
-.resume_footer_box {
+.resume_footer_box {   
     display:  flex ;
     flex-direction: row;
     justify-content: space-between;
