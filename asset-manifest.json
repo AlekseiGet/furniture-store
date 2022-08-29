@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/furniture-store/static/css/main.a4c3699e.css",
-    "main.js": "/furniture-store/static/js/main.d8485645.js",
+    "main.css": "/furniture-store/static/css/main.72ae60f4.css",
+    "main.js": "/furniture-store/static/js/main.cc005ef5.js",
     "static/media/awards2.jpg": "/furniture-store/static/media/awards2.c5d817bdef411d6d452e.jpg",
     "static/media/awards4.jpg": "/furniture-store/static/media/awards4.1e9b45ad438edaa13d43.jpg",
     "static/media/stock.png": "/furniture-store/static/media/stock.5c247cb9b73c5c9aa698.png",
@@ -11,26 +11,32 @@
     "static/media/Map.png": "/furniture-store/static/media/Map.60a35af7db917af31251.png",
     "static/media/slider5.webp": "/furniture-store/static/media/slider5.0439ad61b44df030181a.webp",
     "static/media/chair.png": "/furniture-store/static/media/chair.77c6224c198221094526.png",
+    "static/media/stocks4.jpg": "/furniture-store/static/media/stocks4.90e1d2a37e3d8fcffdfe.jpg",
+    "static/media/stocks6.jpg": "/furniture-store/static/media/stocks6.659f3644bc3eee1f82d9.jpg",
     "static/media/tabl.png": "/furniture-store/static/media/tabl.d06c5f1f73eb18f33e1d.png",
     "static/media/slider6.webp": "/furniture-store/static/media/slider6.3f710f15112e56f98efd.webp",
+    "static/media/stocks5.jpg": "/furniture-store/static/media/stocks5.4b8f422a621d6018eda8.jpg",
     "static/media/i_P4fZIxx3o.png": "/furniture-store/static/media/i_P4fZIxx3o.e813a95c71b633a3f1f5.png",
     "static/media/slider8.webp": "/furniture-store/static/media/slider8.373b7c4edcef934ba199.webp",
     "static/media/slider4.webp": "/furniture-store/static/media/slider4.91ab6fb25acd258a1c6d.webp",
-    "static/media/errorPage.jpg": "/furniture-store/static/media/errorPage.1714f3faee20a97d2000.jpg",
     "static/media/slider7.webp": "/furniture-store/static/media/slider7.937fc5d8a515944b1ce2.webp",
     "static/media/0179001.jpg": "/furniture-store/static/media/0179001.e6c761928f931bc3ac32.jpg",
+    "static/media/stocks3.jpg": "/furniture-store/static/media/stocks3.1ea7c9f4851da4f0aaa5.jpg",
     "static/media/badroom.png": "/furniture-store/static/media/badroom.0665d7850d5839f0f98d.png",
     "static/media/slider9.webp": "/furniture-store/static/media/slider9.7b3e4ee58d231cd91b01.webp",
     "static/media/map.png": "/furniture-store/static/media/map.70d8ccd5c91a716390a6.png",
     "static/media/dainingroom.png": "/furniture-store/static/media/dainingroom.19ca77c995e6fa133e34.png",
     "static/media/awards3.jpg": "/furniture-store/static/media/awards3.df3aedf90d16a34d33dd.jpg",
     "static/media/kids.png": "/furniture-store/static/media/kids.aa1752a51bde06d96aad.png",
+    "static/media/errorPage.jpg": "/furniture-store/static/media/errorPage.0b5ef05b352986ee996d.jpg",
     "static/media/yX3CqllsVwg.jpg": "/furniture-store/static/media/yX3CqllsVwg.72cee6f6daa03c54a3c5.jpg",
     "static/media/wardrobe2.png": "/furniture-store/static/media/wardrobe2.05a49589936acfb05bd2.png",
     "static/media/ups.jpg": "/furniture-store/static/media/ups.c0efc446d4e9841cfe07.jpg",
     "static/media/wardrobe.png": "/furniture-store/static/media/wardrobe.6ce10c79773e9d6e0591.png",
     "static/media/hall.png": "/furniture-store/static/media/hall.7a781db0e28011200d4d.png",
+    "static/media/stocks1.jpg": "/furniture-store/static/media/stocks1.4fa59810405c1a1b261f.jpg",
     "static/media/bad.png": "/furniture-store/static/media/bad.22b38907582515fa2eb5.png",
+    "static/media/stocks2.jpg": "/furniture-store/static/media/stocks2.b5d861810e81c355696e.jpg",
     "static/media/matrases.png": "/furniture-store/static/media/matrases.5360ca24256b9b222a86.png",
     "static/media/offise.png": "/furniture-store/static/media/offise.d7e531c74e19e121493b.png",
     "static/media/i.webp": "/furniture-store/static/media/i.6eda31868d655a667ebd.webp",
@@ -51,11 +57,11 @@
     "static/media/hall-4.svg": "/furniture-store/static/media/hall-4.0d68cc344ff25255b1bf3ab4c5b0d98d.svg",
     "index.html": "/furniture-store/index.html",
     "static/media/table-3.svg": "/furniture-store/static/media/table-3.2e29a907e489afffa4625b85ed0bbc6a.svg",
-    "main.a4c3699e.css.map": "/furniture-store/static/css/main.a4c3699e.css.map",
-    "main.d8485645.js.map": "/furniture-store/static/js/main.d8485645.js.map"
+    "main.72ae60f4.css.map": "/furniture-store/static/css/main.72ae60f4.css.map",
+    "main.cc005ef5.js.map": "/furniture-store/static/js/main.cc005ef5.js.map"
   },
   "entrypoints": [
-    "static/css/main.a4c3699e.css",
-    "static/js/main.d8485645.js"
+    "static/css/main.72ae60f4.css",
+    "static/js/main.cc005ef5.js"
   ]
 }
