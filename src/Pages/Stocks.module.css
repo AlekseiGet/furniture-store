@@ -35,10 +35,13 @@ li::marker {
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.stocks__item_sale{
+.stocks_block{
     width: 20%;
-    height: auto;
-    margin: 5px 2.5px 0px 5px;
+    height: 460px;
+}
+
+.stocks__item_sale{
+    margin: 15px 15px;
     background: white;
     position: relative;
     top: 0px;
