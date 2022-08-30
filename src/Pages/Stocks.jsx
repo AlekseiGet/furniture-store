@@ -8,6 +8,7 @@ import stocks3 from "../img/stocks/stocks3.jpg";
 import stocks4 from "../img/stocks/stocks4.jpg";
 import stocks5 from "../img/stocks/stocks5.jpg";
 import stocks6 from "../img/stocks/stocks6.jpg";
+import MySale from '../components/furniture/MySale';
 
 
 
@@ -114,123 +115,9 @@ const Stocks = () => {
                         <br /> Спешите принять участие в акции и получить бонусный товар! Количество бонусов товаров ограничено!
 
                         <br /> Список изделий участвующих в акции:
-                        <div className={classes.stocks_sale} >
-                            <div className={classes.stocks_block}>
-                            <div className={classes.stocks__item_sale}>
-                                <div className={classes.stocks_sale_tatle}>1 руб.</div>
-                                <div className={classes.stocks_sale_image}>
-                                <img src="https://sun9-60.userapi.com/impg/TIIR5lwnNhMBTmy4zLrDIk_YQz0HZ2VlkvvgBw/3-o4l2odufM.jpg?size=780x1040&quality=96&sign=9a77b690ee0438d4074c50cfc895f972&c_uniq_tag=3oFskkDRcWywmB4gk-yAZKidWCxrOrZHqAwocSTsvko&type=album" alt="стол" />
-                                </div>
-                                <div className={classes.stocks_sale_detail}>
-                                ШхВхГ: 420 х 420 х 400
-                             <br/>   Корпус: Венге Цава
-                             <br />  Фасад: Дуб Молочный
-                               </div>
-                               <div className={classes.stocks_sale_price}>
-                                <s>5000р.</s>
-                               </div>
-                            </div>
-                         </div>
-                            <div className={classes.stocks_block}>
-                                <div className={classes.stocks__item_sale}>
-                                    <div className={classes.stocks_sale_tatle}>1 руб.</div>
-                                    <div className={classes.stocks_sale_image}>
-                                        <img src="https://sun9-60.userapi.com/impg/TIIR5lwnNhMBTmy4zLrDIk_YQz0HZ2VlkvvgBw/3-o4l2odufM.jpg?size=780x1040&quality=96&sign=9a77b690ee0438d4074c50cfc895f972&c_uniq_tag=3oFskkDRcWywmB4gk-yAZKidWCxrOrZHqAwocSTsvko&type=album" alt="стол" />
-                                    </div>
-                                    <div className={classes.stocks_sale_detail}>
-                                        ШхВхГ: 420 х 420 х 400
-                                        <br />   Корпус: Венге Цава
-                                        <br />  Фасад: Дуб Молочный
-                                    </div>
-                                    <div className={classes.stocks_sale_price}>
-                                        <s>5000р.</s>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className={classes.stocks_block}>
-                                <div className={classes.stocks__item_sale}>
-                                    <div className={classes.stocks_sale_tatle}>1 руб.</div>
-                                    <div className={classes.stocks_sale_image}>
-                                        <img src="https://sun9-60.userapi.com/impg/TIIR5lwnNhMBTmy4zLrDIk_YQz0HZ2VlkvvgBw/3-o4l2odufM.jpg?size=780x1040&quality=96&sign=9a77b690ee0438d4074c50cfc895f972&c_uniq_tag=3oFskkDRcWywmB4gk-yAZKidWCxrOrZHqAwocSTsvko&type=album" alt="стол" />
-                                    </div>
-                                    <div className={classes.stocks_sale_detail}>
-                                        ШхВхГ: 420 х 420 х 400
-                                        <br />   Корпус: Венге Цава
-                                        <br />  Фасад: Дуб Молочный
-                                    </div>
-                                    <div className={classes.stocks_sale_price}>
-                                        <s>5000р.</s>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className={classes.stocks_block}>
-                                <div className={classes.stocks__item_sale}>
-                                    <div className={classes.stocks_sale_tatle}>1 руб.</div>
-                                    <div className={classes.stocks_sale_image}>
-                                        <img src="https://sun9-60.userapi.com/impg/TIIR5lwnNhMBTmy4zLrDIk_YQz0HZ2VlkvvgBw/3-o4l2odufM.jpg?size=780x1040&quality=96&sign=9a77b690ee0438d4074c50cfc895f972&c_uniq_tag=3oFskkDRcWywmB4gk-yAZKidWCxrOrZHqAwocSTsvko&type=album" alt="стол" />
-                                    </div>
-                                    <div className={classes.stocks_sale_detail}>
-                                        ШхВхГ: 420 х 420 х 400
-                                        <br />   Корпус: Венге Цава
-                                        <br />  Фасад: Дуб Молочный
-                                    </div>
-                                    <div className={classes.stocks_sale_price}>
-                                        <s>5000р.</s>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className={classes.stocks_block}>
-                                <div className={classes.stocks__item_sale}>
-                                    <div className={classes.stocks_sale_tatle}>1 руб.</div>
-                                    <div className={classes.stocks_sale_image}>
-                                        <img src="https://sun9-60.userapi.com/impg/TIIR5lwnNhMBTmy4zLrDIk_YQz0HZ2VlkvvgBw/3-o4l2odufM.jpg?size=780x1040&quality=96&sign=9a77b690ee0438d4074c50cfc895f972&c_uniq_tag=3oFskkDRcWywmB4gk-yAZKidWCxrOrZHqAwocSTsvko&type=album" alt="стол" />
-                                    </div>
-                                    <div className={classes.stocks_sale_detail}>
-                                        ШхВхГ: 420 х 420 х 400
-                                        <br />   Корпус: Венге Цава
-                                        <br />  Фасад: Дуб Молочный
-                                    </div>
-                                    <div className={classes.stocks_sale_price}>
-                                        <s>5000р.</s>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className={classes.stocks_block}>
-                                <div className={classes.stocks__item_sale}>
-                                    <div className={classes.stocks_sale_tatle}>1 руб.</div>
-                                    <div className={classes.stocks_sale_image}>
-                                        <img src="https://sun9-60.userapi.com/impg/TIIR5lwnNhMBTmy4zLrDIk_YQz0HZ2VlkvvgBw/3-o4l2odufM.jpg?size=780x1040&quality=96&sign=9a77b690ee0438d4074c50cfc895f972&c_uniq_tag=3oFskkDRcWywmB4gk-yAZKidWCxrOrZHqAwocSTsvko&type=album" alt="стол" />
-                                    </div>
-                                    <div className={classes.stocks_sale_detail}>
-                                        ШхВхГ: 420 х 420 х 400
-                                        <br />   Корпус: Венге Цава
-                                        <br />  Фасад: Дуб Молочный
-                                    </div>
-                                    <div className={classes.stocks_sale_price}>
-                                        <s>5000р.</s>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className={classes.stocks_block}>
-                                <div className={classes.stocks__item_sale}>
-                                    <div className={classes.stocks_sale_tatle}>1 руб.</div>
-                                    <div className={classes.stocks_sale_image}>
-                                        <img src="https://sun9-60.userapi.com/impg/TIIR5lwnNhMBTmy4zLrDIk_YQz0HZ2VlkvvgBw/3-o4l2odufM.jpg?size=780x1040&quality=96&sign=9a77b690ee0438d4074c50cfc895f972&c_uniq_tag=3oFskkDRcWywmB4gk-yAZKidWCxrOrZHqAwocSTsvko&type=album" alt="стол" />
-                                    </div>
-                                    <div className={classes.stocks_sale_detail}>
-                                        ШхВхГ: 420 х 420 х 400
-                                        <br />   Корпус: Венге Цава
-                                        <br />  Фасад: Дуб Молочный
-                                    </div>
-                                    <div className={classes.stocks_sale_price}>
-                                        <s>5000р.</s>
-                                    </div>
-                                </div>
-                            </div>
 
-
-
-                      </div>
+                       <MySale/>
+                        
                  </div>
                 </div>
                  <Footer /> 

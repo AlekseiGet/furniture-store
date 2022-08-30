@@ -63,3 +63,90 @@ export const FurnityreBodyIcon = createContext([
       {image: wardrobe2, text: "Шкафы", price: "1 000 руб."},
 
 ])
+
+export const FurnityreBodySale = createContext([
+      {
+       title: "1 руб.",
+       image: "https://sun9-60.userapi.com/impg/TIIR5lwnNhMBTmy4zLrDIk_YQz0HZ2VlkvvgBw/3-o4l2odufM.jpg?size=780x1040&quality=96&sign=9a77b690ee0438d4074c50cfc895f972&c_uniq_tag=3oFskkDRcWywmB4gk-yAZKidWCxrOrZHqAwocSTsvko&type=album",
+       alt: "стол",
+       detail: {
+          str1:  "ШхВхГ: 420 х 420 х 400 ",
+          str2:  "Корпус: Венге ",
+           str3: "Фасад: Дуб Молочный"
+       }, 
+       price: "5 000 руб.",
+       key: 1
+      },
+      {
+       title: "1 руб.",
+       image: "https://sun9-22.userapi.com/impg/N5qLDWFPfjLBtkEXROJWtqDIrmeGAPttRM7gHg/E83Ya_7CJYg.jpg?size=810x1080&quality=96&sign=8896760c98e63a0fa73ee61431bae5fc&c_uniq_tag=ROYQcBNUAHaEU7qNcp2eT45kxXIPmQqulGyJVb120yA&type=album",
+       alt: "комод",
+       detail:{
+          str1:  "ШхВхГ: 420 х 420 х 400 ",
+          str2:  "Корпус: Венге ",
+           str3: "Фасад: Дуб Молочный"
+       },
+       price: "13 300 руб.",
+       key: 2
+      },
+      {
+       title: "1 руб.",
+       image: "https://sun9-15.userapi.com/s/v1/if2/4xmpkDcUI-FAsLMjj_as13bP220bzzFdKnf_x5UEEwTgGx8EWV3ZUChq5k0JOOyC72kmrkMwXj78i5Q_a0b97Xnj.jpg?size=810x1080&quality=96&type=album",
+       alt: "кресло",
+       detail:{
+          str1:  "ШхВхГ: 420 х 420 х 400 ",
+          str2:  "Корпус: Венге ",
+           str3: "Фасад: Дуб Молочный"
+       }, 
+       price: "7 560 руб.",
+       key: 3
+      },
+      {
+       title: "1 руб.",
+       image: "https://sun9-7.userapi.com/impg/ef6q-y4X15Dzw1NJ3MZOWp5gikqfOuoaBW8Q8w/YfylwFaWEEA.jpg?size=810x1080&quality=96&sign=d049e2f37be1b3da64fd8083585e9430&c_uniq_tag=kEYLH_LqcVhn1er63T4x6-4S7J3rwIEVAAKUTQjrY9c&type=album",
+       alt: "стол",
+       detail:{
+          str1:  "ШхВхГ: 420 х 420 х 400 ",
+          str2:  "Корпус: Венге ",
+           str3: "Фасад: Дуб Молочный"
+       }, 
+       price: "3 100 руб.",
+       key: 4
+      },
+      {
+       title: "1 руб.",
+       image: "https://sun9-52.userapi.com/s/v1/if2/tid-m_Hk-xb7X-stsG7VkLIU4cY5IKsMSbIFpHRsOIzQXYRfWoh-6b-tP-z-PvIKm5DKAQN2mD58DyCu8ylnWp7q.jpg?size=810x1080&quality=96&type=album",
+       alt: "стул",
+       detail:{
+          str1:  "ШхВхГ: 420 х 420 х 400 ",
+          str2:  "Корпус: Венге ",
+           str3: "Фасад: Дуб Молочный"
+       }, 
+       price: "2 230 руб.",
+       key: 5
+      },
+      {
+       title: "1 руб.",
+       image: "https://sun9-85.userapi.com/s/v1/if2/d7sJRbYW56QRT3npDk_P7AWKwPYaSY2eH8c7LGLLFB78zknS6QVrvj2-FZem1k8cq_Xidbrpo5mV28pWU1098TmI.jpg?size=810x1080&quality=96&type=album",
+       alt: "стул",
+       detail:{
+          str1:  "ШхВхГ: 420 х 420 х 400 ",
+          str2:  "Корпус: Венге ",
+           str3: "Фасад: Дуб Молочный"
+       }, 
+       price: "2 740 руб.",
+       key: 6
+      },
+      {
+       title: "1 руб.",
+       image: "https://sun9-63.userapi.com/impg/2slpUyqkW1SLqjZlPIqkTrsLRA5NX8f99kyCXQ/v7ofg6b44pk.jpg?size=1280x960&quality=96&sign=365b11ea934dcc42a5d9947c5225d026&c_uniq_tag=PPfzOmr2MrT4mkW-StOikfHFbkYuFspQqkh283VwVHI&type=album",
+       alt: "стол",
+       detail:{
+          str1:  "ШхВхГ: 420 х 420 х 400 ",
+          str2:  "Корпус: Венге ",
+           str3: "Фасад: Дуб Молочный"
+       },
+       price: "4 100 руб.",
+       key: 7
+      },
+])
