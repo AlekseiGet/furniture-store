@@ -24,13 +24,14 @@ const ToolBar = (props) => {
             </Link>
             
           </div>
+              <span className='bar_tel' >+7 (938) 150-24-64</span>
           <div className="bar_tool">
-                <span>+7 (938) 150-24-64</span>
+               
                 <span onClick={catalogActive}>Каталог</span>
                 <Link to="/resume">О фабрике</Link>
                 <Link to="/stocks">Акции</Link>
                  <a href='#contacts'>Контакты</a>
-                <Link to="/entrance">Войти <p>Регистрация</p></Link>
+                <Link to="/entrance">Войти Регистрация</Link>
                 
           </div>
         </div>
@@ -39,4 +40,4 @@ const ToolBar = (props) => {
 };
 
 export default ToolBar;
-//export { CatalogLeft };
+
