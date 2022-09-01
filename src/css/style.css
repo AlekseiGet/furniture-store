@@ -58,7 +58,7 @@ h3 {
 
 .header_background {
   width: 100%;
-  height: 40vw;
+  height: max(40vw, 300px);
   position: absolute;
   top: 100px;
   left: 0px;
@@ -70,7 +70,7 @@ h3 {
 
 .tool_bar_box {
   width: 100%;
-  height: 46vw;
+  height: max(52vw, 400px);
 }
 
 .tool_bar {
@@ -488,6 +488,15 @@ a:hover {
   .left_bar_box {
     width: 220px;
   }
+  .header_background {
+    background-size: cover;
+  }
+  .title {
+    padding: 20px 0px;
+    font-size: 1em;
+    font-style: oblique;
+    font-weight: 600;
+  }
   .bar_tool {
     width: 50%;
     height: 100vh;
@@ -501,6 +510,7 @@ a:hover {
     top: 0px;
     right: 0px;
     z-index: -2;
+    visibility: hidden;
   }
   .bar_tool * {
     margin-top: 30px;

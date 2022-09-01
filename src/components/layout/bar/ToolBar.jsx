@@ -31,7 +31,7 @@ const ToolBar = (props) => {
                 <Link to="/resume">О фабрике</Link>
                 <Link to="/stocks">Акции</Link>
                  <a href='#contacts'>Контакты</a>
-                <Link to="/entrance">Войти Регистрация</Link>
+                <Link to="/entrance">Регистрация</Link>
                 
           </div>
         </div>
