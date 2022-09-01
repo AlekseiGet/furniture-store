@@ -19,14 +19,13 @@ class Banner extends React.Component {
                         <div className={classes.col}>
                             
                             <Carousel>
-
                                 <Carousel.Item>
                                     <div className={classes.carousel_item}>
                                        
                                     <Carousel.Caption>
                                             <div className={classes.carousel_box}>
                                                 <h3 className={classes.carousel_title}>К школе готов ?!</h3>
-                                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                                       
                                                 <MyButton><Link className={classes.link} to="/stocks">Узнать больше</Link></MyButton>
                                         </div>
@@ -66,22 +65,18 @@ class Banner extends React.Component {
                                     <div className={classes.carousel_item}>
 
                                         <Carousel.Caption>
-                                            <div className={classes.carousel_box}>
+                                            <div className={[classes.carousel_box, classes.carousel_box_last].join(' ')}>
                                                 
-                                                <span className={classes.carousel_span}> <span className={classes.carousel_big}> 0</span> % <br/>первый взнос</span>
+                                                <span className={classes.carousel_span}> <span className={classes.carousel_big}> 0</span> % <br/>первый <br/>взнос</span>
                                                 <span className={classes.carousel_span}> <span className={classes.carousel_big}>- 0</span> % <br/>переплата </span>
                                                 <span className={classes.carousel_span}> <span className={classes.carousel_big}>- 24</span><br/>месяца </span>
                                                 <span className={classes.carousel_big}>на всё !</span>  
-                                                 
-                                                <br />  <MyButton><Link className={classes.link} to="/stocks">Узнать больше</Link></MyButton>
-                                                 
+                                                                                                 
                                             </div>
-                                              
+                                              <MyButton><Link className={classes.link} to="/stocks">Узнать больше</Link></MyButton>
                                         </Carousel.Caption>
                                     </div>
                                 </Carousel.Item>
-
-
                             </Carousel>
                         </div>
                     </div>

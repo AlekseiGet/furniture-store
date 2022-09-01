@@ -2,7 +2,6 @@
 .container {
     width: 100%;
     height: max(40vw, 300px);
-    border: solid red;
 }
 
 .row {
@@ -16,14 +15,18 @@
 .block {}
 
 .carousel_item {
-    margin-top: 15vw;
-    height: 20vw; 
-    border: solid green; 
+    margin-top: 10%;
+    height:max(20vw, 230px );  
 }
 .carousel_box{
    margin-bottom: 10px;
-   font-size: 2em;
-   border: solid red;
+   font-size:max(1.6vw, 14px) ;
+ 
+}
+
+.carousel_box_last{
+   display: flex;
+   justify-content: center;
 }
 
 .carousel_span {
@@ -32,7 +35,9 @@
 }
 
 .carousel_big{
-   font-size: 3.5em;
+    display: inline-block;
+    white-space: nowrap;
+   font-size: max(5vw, 28px);
    font-weight: 900;
 }
 .carousel_title{
@@ -41,11 +46,11 @@
 }
 
 .carousel_image{
-    height: 100%;
+    height:min(100%, 50vw) ;
     object-fit: cover;
     position: relative;
     right: -10%;
-    top: -40%;
+    top: -20%;
 }
 .link{
     color: white;
@@ -56,6 +61,8 @@
     color: white;  
 }
 
-@media(max-width:1067px) {
-
+@media(max-width:1439px) {
+    .carousel_title {
+           
+        }
 }

@@ -34,7 +34,7 @@ const NewReviews = ({ page, setPage, totalComent, create }) => {
     }
     return (
         <div className='new_reviews' >
-            <MyButton onClick={increment}>ещё</MyButton>
+            <MyButton onClick={increment}> ещё</MyButton>
            <MyButton onClick={() => setModal(true)}>Оставить отзыв</MyButton>
             <MyButton onClick={decrement}>ещё</MyButton>  
             <MyModal visibel={modal} setVisibel={setModal}>

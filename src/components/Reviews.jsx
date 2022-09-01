@@ -5,7 +5,6 @@ import { useFetching } from '../Hooks/useFetching';
 import ReviewsServise from './Api/ReviewsServise';
 import { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import siluet from "../img/siluet.png"
 import NewReviews from './NewReviews';
 import upsImage from "../img/ups.jpg"
 import { getComentCount } from '../utils/comentsPage';
@@ -68,12 +67,9 @@ const Reviews = () => {
                                       <img src={upsImage} alt="ups" />
                            </div>
                             <div className="reviews_item_text">
-                              <div className="reviews_item_foto">
-                               <img src={siluet} alt="ups" />
-                              </div>
                                <div className="reviews_item_span">
                                 <span className='reviews_name'> {e.name}</span>
-                                <span>{e.body}</span>
+                                <span className='reviews_text'>{e.body}</span>
                               </div>
                             </div>
                           </div>
