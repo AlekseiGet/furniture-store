@@ -19,12 +19,12 @@ class Slider extends React.Component {
                         <div className={classes.col}>                         
                             <Carousel>
                                 {this.props.baner.map(der => 
-                                    <Carousel.Item key={der.title}>
+                                    <Carousel.Item key={der.id}>
                                         <div className={classes.carousel_item} >
-                                        <img className={classes.carousel_image}
+                                          <img className={classes.carousel_image}
                                                 src={der.image}
                                             alt="логотип" />
-                                        <Carousel.Caption>
+                                          <Carousel.Caption>
                                             <div className={classes.carousel_box}>
                                                 <h3 className={classes.carousel_title}>{der.title } </h3>
                                                 <p className={classes.carousel_text}>{der.text} </p>                                            

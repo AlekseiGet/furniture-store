@@ -1,4 +1,4 @@
-//@import "null.scss";
+@import "null.scss";
 
 #root{
      position: relative;
@@ -25,31 +25,22 @@ body{
   
 }
 .content{
-    max-width: 1445px; 
-    min-width: 90%;  
+    max-width: 1445px ;  
     min-height: 100%;
-    margin: 55px auto;
-    box-shadow: 0px 0px 9px 0px rgb(0 0 0 / 30%); 
-  //  overflow: auto;
+    margin: 35px auto;
+    box-shadow: 0px 0px 19px 0px rgb(0 0 0 / 30%); 
+    overflow: hidden;
     border: 1px solid black;
     border-radius: 5px;
 }
 .header{
    
 }
-h1{
+h1, h2, h3,h4{
     text-align: center;
     font-style: italic;
 }
-h2{
-    font-size: 26px;
-    font-weight: 700;
-    text-align: center;
-}
-h3{
-    font-size: 22px;
-    font-weight: 700;
-}
+
 .title{
     width: 70%;
     margin: auto;
@@ -74,7 +65,7 @@ h3{
 
 .tool_bar_box{
     width: 100%;
-    height: max( 52vw, 400px);
+    height: max( 52vw, 405px);
 }
 .tool_bar{
     position: sticky;
@@ -101,7 +92,6 @@ h3{
        height: 100%;
     }
 }
-
 .bar_tel{
     width: 230px;
     color: rgb(230, 89, 89);
@@ -112,7 +102,6 @@ h3{
     font-size: 1.1em;
     white-space: nowrap;
 }
-
 .bar_tool{
     width: 70%;
     display: flex;
@@ -148,6 +137,8 @@ h3{
       transform: translateX(250px);
       transition-duration: 0.4s;
 }
+
+
 .left_bar_box{
      width: 250px;
      height: 100%;
@@ -375,7 +366,7 @@ h3{
    border-radius: 10px; 
    display: flex;
    flex-direction: row;
-   overflow: hidden;
+   
 }
 .reviews_item_image{
     width: 30%;
@@ -408,8 +399,8 @@ h3{
 .reviews_text{
     display: inline-block;
     width: 100%;
-  
-    overflow: hidden;
+    height: 80%;
+    overflow:hidden ;    
 }
 
 .new_reviews{
@@ -516,7 +507,7 @@ a:hover{
       right: 0px;
       z-index: -2;
 
-      visibility: hidden;
+   visibility: hidden;
        *{
           margin-top: 30px;
           color: white; 
