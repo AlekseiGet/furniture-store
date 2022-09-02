@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/furniture-store/static/css/main.66322008.css",
-    "main.js": "/furniture-store/static/js/main.3c834244.js",
+    "main.css": "/furniture-store/static/css/main.55b6b375.css",
+    "main.js": "/furniture-store/static/js/main.305625cc.js",
     "static/media/awards2.jpg": "/furniture-store/static/media/awards2.c5d817bdef411d6d452e.jpg",
     "static/media/awards4.jpg": "/furniture-store/static/media/awards4.1e9b45ad438edaa13d43.jpg",
     "static/media/stock.png": "/furniture-store/static/media/stock.5c247cb9b73c5c9aa698.png",
     "static/media/awards1.jpg": "/furniture-store/static/media/awards1.8ac40fb06b0cfb0d806d.jpg",
     "static/media/header-background.jpg": "/furniture-store/static/media/header-background.36f1529aa7fd6638f76a.jpg",
     "static/media/chestjpg.jpg": "/furniture-store/static/media/chestjpg.2d08b320af96846640e4.jpg",
-    "static/media/Map.png": "/furniture-store/static/media/Map.60a35af7db917af31251.png",
+    "static/media/Map.png": "/furniture-store/static/media/Map.399ec0b01b2616e075d5.png",
     "static/media/slider5.webp": "/furniture-store/static/media/slider5.0439ad61b44df030181a.webp",
     "static/media/chair.png": "/furniture-store/static/media/chair.77c6224c198221094526.png",
     "static/media/stocks4.jpg": "/furniture-store/static/media/stocks4.90e1d2a37e3d8fcffdfe.jpg",
@@ -57,11 +57,11 @@
     "static/media/hall-4.svg": "/furniture-store/static/media/hall-4.0d68cc344ff25255b1bf3ab4c5b0d98d.svg",
     "index.html": "/furniture-store/index.html",
     "static/media/table-3.svg": "/furniture-store/static/media/table-3.2e29a907e489afffa4625b85ed0bbc6a.svg",
-    "main.66322008.css.map": "/furniture-store/static/css/main.66322008.css.map",
-    "main.3c834244.js.map": "/furniture-store/static/js/main.3c834244.js.map"
+    "main.55b6b375.css.map": "/furniture-store/static/css/main.55b6b375.css.map",
+    "main.305625cc.js.map": "/furniture-store/static/js/main.305625cc.js.map"
   },
   "entrypoints": [
-    "static/css/main.66322008.css",
-    "static/js/main.3c834244.js"
+    "static/css/main.55b6b375.css",
+    "static/js/main.305625cc.js"
   ]
 }
