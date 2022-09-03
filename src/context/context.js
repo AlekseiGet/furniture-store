@@ -28,6 +28,7 @@ import tabl from "../img/body_item/tabl.png";
 import wardrobe from "../img/body_item/wardrobe.png";
 import wardrobe2 from "../img/body_item/wardrobe2.png";
 
+export const EntranceContext = createContext(null);
 
 
 export const FurnitureBox = createContext([

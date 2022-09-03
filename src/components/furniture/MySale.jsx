@@ -5,7 +5,7 @@ import { useState } from 'react';
 
 const MySale = () => {
 
-   
+  
     
     function choose(p) {    
              const response = document.getElementById(p); 
