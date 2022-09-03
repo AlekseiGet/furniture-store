@@ -2,12 +2,13 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .stocks_block {
-    width: 20%;
+    width: max(280px, 20%);
     height: 460px;
+    margin: 10px;
 }
 
 .stocks__item_sale {
@@ -36,6 +37,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+  
 }
 
 .stocks_sale_detail {

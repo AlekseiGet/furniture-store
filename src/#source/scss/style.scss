@@ -36,7 +36,8 @@ body{
 .header{
    
 }
-h1, h2, h3,h4{
+h1,h2,h3,h4{
+    margin: 0px 10px;
     text-align: center;
     font-style: italic;
 }
@@ -468,23 +469,31 @@ a:hover{
 
 
 @media(max-width:1067px){
+    .content{
+    margin: 35px 10px 10px 15px;}
+
    .left_bar_conteiner{
      width: 260px;
      }
+
    .left_bar_box{
         width: 220px;
      }
+
      .header_background{ 
     background-size: cover;    
      }
+
      .title{
         font-size:1em;
         font-style: oblique;
         font-weight: 600;
      }
+
    .tool_bar_box{
       
      }
+
    .tool_bar{
       
      }
@@ -518,10 +527,13 @@ a:hover{
 } 
 
 }
+
 @media(max-width:767px){
     .reviews_item{
      max-width: 90%;
-} }
+}
+ }
+
 @media(min-width:1650px){
 }	
 	
