@@ -2,7 +2,7 @@ import React from 'react';
 
 const Requesites = () => {
     return (
-        <div id='contacts'  className="requesites info_for ">
+        <div id='contacts'  className="info_for ">
             <h3>Реквизиты и контакты</h3>   
             <p>ООО "Бикерт Мебель"</p>
             <p>ИНН/КПП: 00000000/111111111</p>

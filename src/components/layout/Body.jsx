@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useRef } from 'react';
 import { useContext } from 'react';
 import { FurnityreBodyIcon } from '../../context/context';
+import { BrowserRouter, Link } from "react-router-dom";
 
 const Body = () => {
     const [] = useContext(FurnityreBodyIcon);
@@ -24,13 +25,13 @@ const Body = () => {
             <div ref={opacity} className="body_furniture_item">
               
             {FurnityreBodyIcon._currentValue.map( der =>
-                
-                <div key={der.image}  className={visibl}>
-                    <img src={der.image} alt="ups" />
-                    <div className="furniture_item_title">{der.text}</div>
-                    <div className="furniture_item_price">от-{der.price} </div>
-                </div>
-             
+                <Link to="/catalog" key={der.image}> 
+                    <div   className={visibl}>
+                        <img src={der.image} alt="ups" />
+                        <div className="furniture_item_title">{der.text}</div>
+                        <div className="furniture_item_price">от-{der.price} </div>
+                    </div>
+                </Link>
             ) } 
                
            </div>

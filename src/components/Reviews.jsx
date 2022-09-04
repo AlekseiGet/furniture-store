@@ -53,8 +53,6 @@ const Reviews = () => {
     observer.current.observe(opacity.current)
   })
 
-
-
     return (     
         <div ref={opacity} className='requesites'>
             <h2>Отзывы наших клиентов</h2>   
