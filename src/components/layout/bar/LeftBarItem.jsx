@@ -11,7 +11,7 @@ const LeftBarItem = () => {
         <div id="catalog" className='left_bar_box'>
             {FurnitureBox._currentValue.map(bar => 
                 <Link to="/catalog" key={bar.image}>
-                   <div className='left_bar_item' key={bar.image}>
+                   <div className='left_bar_item' >
                      <div className="left_bar_imag">
                          <img src={bar.image} alt="ups" />
                      </div>
