@@ -7,9 +7,7 @@ import classes from './Slider.module.css';
 
 
 class Slider extends React.Component {
-
-   
-   
+ 
     render() {
        
         return (
