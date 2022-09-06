@@ -13,13 +13,11 @@ const Entrance = () => {
         setIsAuth(true); 
         localStorage.setItem('auth', "true");  
         alert("Добро пожаловать") 
-        console.log(isAuth);  
     }
     const logout = () => {
         setIsAuth(false);
         localStorage.removeItem('auth');
         alert("Досвидания");
-        console.log(isAuth);
     }
 
     return (

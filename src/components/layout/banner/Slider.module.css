@@ -1,5 +1,7 @@
 .container {
     min-width: 100vw;
+    position: relative;
+    z-index: 0;
 }
 
 .row { 
@@ -14,8 +16,7 @@
     height: max(40vw, 300px);
 }
 
-.carousel_box {
-  
+.carousel_box { 
     border-radius: 40px;
     background: rgba(255, 255, 255, 0.548);
 }

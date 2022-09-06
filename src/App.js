@@ -6,7 +6,8 @@ import { useEffect, useState } from 'react';
 //
 function App() {
   const [isAuth, setIsAuth] = useState(false);
-   const [isloading, setIsLoading] = useState(true);
+  const [isloading, setIsLoading] = useState(true);
+  const [choiceFurniture, setChoiceFurniture] = useState("");
    
  useEffect(() => {
        if (localStorage.getItem( 'auth') ) {
@@ -15,14 +16,13 @@ function App() {
        setIsLoading(false)
    },[] )
 
-
-
-  return (
-   
+  return (  
      <EntranceContext.Provider value={{
       isAuth,
       setIsAuth,
-      isloading 
+      isloading,
+      choiceFurniture,
+      setChoiceFurniture 
     }} > 
     <BrowserRouter>
         <AppRouter/>

@@ -32,20 +32,20 @@ export const EntranceContext = createContext(null);
 
 
 export const FurnitureBox = createContext([
-   {image: sofa, text: "Мягкая мебель"},
-   {image: table, text: "Столы"}, 
-   {image: bedroom, text: "Кровати"},
-   {image: bedside, text: "Спальни"},
-   {image: chair, text: "Стулья"},
-   {image: chest, text: "Комоды"},
-   {image: child, text: "Детская мебель"},
-   {image: closet, text: "Распашные шкафы"},
-   {image: cupboard, text: "Шкафы купе"},
-   {image: hall, text: "Мебель для прихожей"},
-   {image: kitchen, text: "Мебель для кухни"},
-   {image: mattress, text: "Матрасы, наматрасники"},
-   {image: offise, text: "Офисная мебель"},
-   {image: room, text: "Гостиные"},
+   {image: sofa, text: "Мягкая мебель", id: 'sofa'},
+   {image: table, text: "Столы", id: "table"}, 
+   {image: bedroom, text: "Кровати", id: "bedroom"},
+   { image: bedside, text: "Спальни", id: "bedside" },
+   { image: chair, text: "Стулья", id: "chair" },
+   { image: chest, text: "Комоды", id: "chest" },
+   { image: child, text: "Детская мебель", id: "child" },
+   { image: closet, text: "Распашные шкафы", id: "closet" },
+   { image: cupboard, text: "Шкафы купе", id: "cupboard" },
+   { image: hall, text: "Мебель для прихожей", id: "hall" },
+   { image: kitchen, text: "Мебель для кухни", id: "kitchen" },
+   { image: mattress, text: "Матрасы, наматрасники", id: "mattress" },
+   { image: offise, text: "Офисная мебель", id: "offise" },
+   { image: room, text: "Гостиные", id: "room" },
 ])
 
 export const FurnityreBodyIcon = createContext([
@@ -228,6 +228,7 @@ export const FurnityreItem = createContext([
 
 
    {
+   
       title: "table",
       image: "https://sun9-50.userapi.com/impg/PIlXApY3OvD9aC9rpstx_aEvuweslp6SFlDcXg/f9totN5l8wM.jpg?size=200x150&quality=96&sign=6b82dedf1f2038ecf28130086122f7b1&c_uniq_tag=-rUA7he8avD6DmYXBRAK6fBD5w3KUrRde4NRL1HyP1o&type=album",
       text: "Столы разные нужны, столы разные важны. Представляем вашему вниманию СТОЛЫ ОБЕДЕННЫЕ. Цельные и раскладные. Столы-книжки и столы-тумбы. Столы с фотопечатью и однотонные. Столы раздвижные и столы-трансформеры. У нас в магазине широкий ассортимент обеденных столов как собственного производства так и производства наших партнеров. Столы из ДСП выполнены в разных цветах и всегда есть в наличии. Возможен самовывоз или доставка в день покупки",

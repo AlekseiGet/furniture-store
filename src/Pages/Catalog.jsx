@@ -1,19 +1,27 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import Header from '../components/layout/Header';
 import Footer from '../components/layout/Footer';
 import classes from "./Catalog.module.css"
 import { FurnityreItem } from '../context/context';
-import { useContext } from 'react';
+import { EntranceContext } from '../context/context';
 
 const Catalog = () => {
     const isAuth = useContext(FurnityreItem );
-   
+    const { choiceFurniture } = useContext(EntranceContext);
+
+    let result = isAuth.filter(function (item, index, array) {
+        return item.title === choiceFurniture;  })
+       
+
+
     return (
         <div>
             <Header />
+
+
             <div className = {classes.catalog_conteiner}>             
                 <div className = {classes.catalog_box}>                  
-                    {isAuth.map(der =>
+                    {result.map(der =>
                       <div className = {classes.catalog_item} key={der.id}>
                         <div className = {classes.catalog_item_title}>
                             <h3>{der.title}</h3>  
@@ -31,8 +39,9 @@ const Catalog = () => {
             )} 
 
                 </div>
+              <Footer />    
             </div>            
-            <Footer />           
+                     
         </div>
     );
 };

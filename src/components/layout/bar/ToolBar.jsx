@@ -6,8 +6,7 @@ import { useEffect } from 'react';
  
 
 const ToolBar = (props) => {
-  const [active, setActive] = useState(false);
-  const [burgerClass, setBurgerClass] = useState("bar_box_tool")
+  const [burgerClass, setBurgerClass] = useState("bar_box_tool");
 
   const catalogActive = () => {
     if (props.catalogVisibil) {
@@ -17,21 +16,15 @@ const ToolBar = (props) => {
     }  
   };
 
+
   const barActive = () => {
-    if (active) {
-      setActive(false)
+    if (burgerClass === "bar_box_tool bar_box_tool_active") {
+      setBurgerClass("bar_box_tool bar_tool_closed")
     } else {
-      setActive(true)
-    }
+      setBurgerClass("bar_box_tool bar_box_tool_active");
+    }  
   };
 
-  useEffect(() => {
-    if (active) {
-      setBurgerClass("bar_box_tool bar_box_tool_active")
-    } else {
-      setBurgerClass("bar_box_tool")
-    }
-   }, [active] )
 
     return (
       <div className="tool_bar_box" >
@@ -43,8 +36,8 @@ const ToolBar = (props) => {
             
            </div>
           <span className='bar_tel' >+7 (938) 150-24-64</span>
-          <div onClick={barActive} className={burgerClass}>  
-            <div className="bar_tool_burger"></div> 
+          <div  className={burgerClass}>  
+               <div onClick={barActive}  className="bar_tool_burger"></div> 
                <div className="bar_tool">                 
                 <span onClick={catalogActive}>Каталог</span>
                 <Link to="/resume">О фабрике</Link>

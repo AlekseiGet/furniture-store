@@ -555,7 +555,7 @@ a:hover {
     margin: 35px 10px 10px 15px;
   }
   .left_bar_conteiner {
-    width: 260px;
+    width: 280px;
   }
   .left_bar_box {
     width: 220px;
@@ -584,6 +584,12 @@ a:hover {
     flex-direction: column;
     justify-content: left;
     align-items: center;
+  }
+  .bar_tool * {
+    margin-top: 30px;
+    color: white;
+  }
+  .bar_tool_closed .bar_tool {
     -webkit-animation-name: closed_animashion;
             animation-name: closed_animashion;
     -webkit-animation-duration: 0.7s;
@@ -596,10 +602,6 @@ a:hover {
             animation-direction: normal;
     -webkit-animation-fill-mode: forwards;
             animation-fill-mode: forwards;
-  }
-  .bar_tool * {
-    margin-top: 30px;
-    color: white;
   }
   @-webkit-keyframes closed_animashion {
     0% {

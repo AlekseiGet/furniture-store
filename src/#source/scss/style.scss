@@ -60,6 +60,7 @@ h1,h2,h3,h4{
     background: url(/src/img/header-background.jpg)  no-repeat;
     background-size: 100% 120%;  
     transition-duration: 3.5s;
+   
 }
 
 
@@ -481,7 +482,7 @@ a:hover{
     margin: 35px 10px 10px 15px;}
 
    .left_bar_conteiner{
-     width: 260px;
+     width: 280px;
      }
 
    .left_bar_box{
@@ -514,19 +515,24 @@ a:hover{
         padding: 90px 0px 0px;
         flex-direction: column;
         justify-content: left;
-        align-items: center;
-         animation-name: closed_animashion; 
-         animation-duration: 0.7s;
-         animation-timing-function: ease-in-out;
-         animation-iteration-count: 1;
-         animation-direction: normal;
-         animation-fill-mode: forwards;
-        
+        align-items: center;     
        *{
           margin-top: 30px;
           color: white; 
        }  
      }
+
+     .bar_tool_closed{
+          .bar_tool{
+            animation-name: closed_animashion; 
+           animation-duration: 0.7s;
+           animation-timing-function: ease-in-out;
+           animation-iteration-count: 1;
+           animation-direction: normal;
+           animation-fill-mode: forwards;
+           }
+     }
+
      @keyframes closed_animashion {
            0% {
              right: 0%;
@@ -554,6 +560,7 @@ a:hover{
        z-index: 2;
        border-radius: 2px;
        background: rgb(68, 65, 65);
+       
     }
 
     .bar_tool_burger::after{
@@ -583,7 +590,7 @@ a:hover{
     }
    
   .bar_box_tool_active{
-     .bar_tool {           
+     .bar_tool {        
             background: rgb(68, 65, 65);          
             animation-name: white_animashion; 
             animation-duration: 1.5s;
