@@ -16,7 +16,6 @@ const ToolBar = (props) => {
     }  
   };
 
-
   const barActive = () => {
     if (burgerClass === "bar_box_tool bar_box_tool_active") {
       setBurgerClass("bar_box_tool bar_tool_closed")
@@ -24,7 +23,6 @@ const ToolBar = (props) => {
       setBurgerClass("bar_box_tool bar_box_tool_active");
     }  
   };
-
 
     return (
       <div className="tool_bar_box" >
@@ -43,7 +41,7 @@ const ToolBar = (props) => {
                 <Link to="/resume">О фабрике</Link>
                 <Link to="/stocks">Акции</Link>
                  <a href='#contacts'>Контакты</a>
-                <Link to="/entrance">Регистрация</Link>
+                <Link  to="/entrance">Регистрация</Link>
                 
             </div>
           </div> 

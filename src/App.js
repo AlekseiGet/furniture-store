@@ -7,7 +7,7 @@ import { useEffect, useState } from 'react';
 function App() {
   const [isAuth, setIsAuth] = useState(false);
   const [isloading, setIsLoading] = useState(true);
-  const [choiceFurniture, setChoiceFurniture] = useState("");
+  const [choiceFurniture, setChoiceFurniture] = useState("bar_box_tool");
    
  useEffect(() => {
        if (localStorage.getItem( 'auth') ) {
