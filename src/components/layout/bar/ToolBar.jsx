@@ -1,26 +1,37 @@
 import React from 'react';
 import icon from "../../../../src/img/yX3CqllsVwg.jpg"
+import { EntranceContext } from '../../../context/context';
 import { BrowserRouter, Link } from "react-router-dom";
 import { useState } from 'react';
 import { useEffect } from 'react';
+import { useContext } from 'react';
+import { useMemo } from 'react';
  
 
 const ToolBar = (props) => {
-  const [burgerClass, setBurgerClass] = useState("bar_box_tool");
-
-  const catalogActive = () => {
-    if (props.catalogVisibil) {
-      props.setCatalogVisibil(false)     
+  const {burgerClass, setBurgerClass} = useContext(EntranceContext);
+ 
+  useMemo(() => {
+    if (burgerClass === "bar_box_tool bar_box_tool_active") {
+      setBurgerClass("bar_box_tool bar_tool_closed");
     } else {
-      props.setCatalogVisibil (true)
-    }  
-  };
+      setBurgerClass("bar_box_tool");
+    }
+  }, [])
 
   const barActive = () => {
     if (burgerClass === "bar_box_tool bar_box_tool_active") {
-      setBurgerClass("bar_box_tool bar_tool_closed")
+      setBurgerClass("bar_box_tool bar_tool_closed");
     } else {
       setBurgerClass("bar_box_tool bar_box_tool_active");
+    }
+  };
+
+  const catalogActive = () => {
+    if (props.catalogVisibil) {
+      props.setCatalogVisibil(false) ;    
+    } else {
+      props.setCatalogVisibil (true);
     }  
   };
 

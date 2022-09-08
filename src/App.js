@@ -7,7 +7,8 @@ import { useEffect, useState } from 'react';
 function App() {
   const [isAuth, setIsAuth] = useState(false);
   const [isloading, setIsLoading] = useState(true);
-  const [choiceFurniture, setChoiceFurniture] = useState("bar_box_tool");
+  const [choiceFurniture, setChoiceFurniture] = useState("");
+  const [ burgerClass, setBurgerClass ] = useState("");
    
  useEffect(() => {
        if (localStorage.getItem( 'auth') ) {
@@ -22,7 +23,9 @@ function App() {
       setIsAuth,
       isloading,
       choiceFurniture,
-      setChoiceFurniture 
+      setChoiceFurniture,
+      burgerClass, 
+      setBurgerClass 
     }} > 
     <BrowserRouter>
         <AppRouter/>
