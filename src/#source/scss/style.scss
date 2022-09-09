@@ -1,4 +1,5 @@
-@import "null.scss";
+@import "./null.scss";
+@import "./tool.scss";
 
 #root{
      position: relative;
@@ -63,7 +64,7 @@ h1,h2,h3,h4{
    
 }
 
-
+/*
 .bar_box_tool{
     width: 70%;
 }
@@ -174,7 +175,7 @@ h1,h2,h3,h4{
     font-size: medium;
     margin-left: 5px;
 }
-
+*/
 
 .body_furniture_item{
     display: flex;
@@ -478,9 +479,19 @@ a:hover{
 }
 
 @media(max-width:1067px){
-    .content{
+ .content{
     margin: 35px 10px 10px 15px;}
 
+ .header_background{ 
+    background-size: cover;    
+     }
+
+ .title{
+        font-size:1em;
+        font-style: oblique;
+        font-weight: 600;
+     }
+  /*
    .left_bar_conteiner{
      width: 280px;
      }
@@ -488,23 +499,14 @@ a:hover{
    .left_bar_box{
         width: 220px;
      }
+  
 
-     .header_background{ 
-    background-size: cover;    
-     }
-
-     .title{
-        font-size:1em;
-        font-style: oblique;
-        font-weight: 600;
-     }
-
-    .bar_tel{
+ .bar_tel{
       font-size: 0.8em;
       font-weight: 700;
     }
 
-   .bar_tool{ 
+  .bar_tool{ 
       position: fixed;
         top: 0px;
         right: -100%;
@@ -655,7 +657,7 @@ a:hover{
             background: white;        
        } 
     }
-
+*/
    .reviews_item{
    max-width: 45%;
 } 

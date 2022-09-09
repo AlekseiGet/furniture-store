@@ -8,7 +8,7 @@ function App() {
   const [isAuth, setIsAuth] = useState(false);
   const [isloading, setIsLoading] = useState(true);
   const [choiceFurniture, setChoiceFurniture] = useState("");
-  const [ burgerClass, setBurgerClass ] = useState("");
+  const [burgerClass, setBurgerClass] = useState("bar_box_tool");
    
  useEffect(() => {
        if (localStorage.getItem( 'auth') ) {

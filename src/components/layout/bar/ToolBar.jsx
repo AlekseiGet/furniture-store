@@ -11,6 +11,7 @@ import { useMemo } from 'react';
 const ToolBar = (props) => {
   const {burgerClass, setBurgerClass} = useContext(EntranceContext);
  
+
   useMemo(() => {
     if (burgerClass === "bar_box_tool bar_box_tool_active") {
       setBurgerClass("bar_box_tool bar_tool_closed");
