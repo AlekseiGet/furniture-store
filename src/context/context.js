@@ -49,19 +49,19 @@ export const FurnitureBox = createContext([
 ])
 
 export const FurnityreBodyIcon = createContext([
-      {image: bad, text: "Кровати", price: "1 000 руб."},
-      {image: badroom, text: "Спальни", price: "1 000 руб."},
-      {image: chair2 , text: "Стулья", price: "1 000 руб."},
-      {image: chestjpg, text: "Комоды", price: "1 000 руб."},
-      {image: dainingroom, text: "Мебель для кухни", price: "1 000 руб."},
-      {image: hall2, text: "Мебель в прихожую", price: "1 000 руб."},
-      {image: sofa2, text: "Мягкая мебель", price: "1 000 руб."},
-      {image: kids, text: "Для детей", price: "1 000 руб."},
-      {image: matrases, text: "Матрасы", price: "1 000 руб."},
-      {image: offise2, text: "Офисная мебель", price: "1 000 руб."},
-      {image: tabl, text: "Столы", price: "1 000 руб."},
-      {image: wardrobe, text: "Шкафы купе", price: "1 000 руб."},
-      {image: wardrobe2, text: "Шкафы", price: "1 000 руб."},
+   { image: bad, text: "Кровати", price: "1 000 руб.", id: "bedroom" },
+   { image: badroom, text: "Спальни", price: "1 000 руб.", id: "bedside" },
+   { image: chair2, text: "Стулья", price: "1 000 руб.", id: "chair" },
+   { image: chestjpg, text: "Комоды", price: "1 000 руб.", id: "chest" },
+   { image: dainingroom, text: "Мебель для кухни", price: "1 000 руб.", id: "kitchen" },
+   { image: hall2, text: "Мебель в прихожую", price: "1 000 руб.", id: "hall" },
+   { image: sofa2, text: "Мягкая мебель", price: "1 000 руб.", id: 'sofa' },
+   { image: kids, text: "Для детей", price: "1 000 руб.", id: "child" },
+   { image: matrases, text: "Матрасы", price: "1 000 руб.", id: "mattress" },
+   { image: offise2, text: "Офисная мебель", price: "1 000 руб.", id: "offise" },
+   { image: tabl, text: "Столы", price: "1 000 руб.", id: "table" },
+   { image: wardrobe, text: "Шкафы купе", price: "1 000 руб.", id: "cupboard" },
+   { image: wardrobe2, text: "Шкафы", price: "1 000 руб.", id: "closet" },
 
 ])
 

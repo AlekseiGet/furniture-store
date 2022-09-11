@@ -1,11 +1,9 @@
 .catalog_conteiner{
     position: absolute;
-        top: 0px;
+        top: 100px;
         left: 0px;
-        z-index: -1;
     width: 100%;
     height: 100%;
-  
 }
 
 .catalog_box{
@@ -13,13 +11,18 @@
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 150px 0px 50px 0px;
+    padding: 50px 0px 50px 0px;
    background: rgb(248, 247, 247);
 }
 
+.catalog_content{
+    width: max(280px, 40%);
+  
+}
+
 .catalog_item{
-    width:max(280px, 40%) ;
-    margin:10px;
+    margin: 30px auto;
+    width: max(280px, 38vw);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -57,4 +60,95 @@
     background: rgb(221, 104, 104);
     color: white;
     border-radius: 5px;
+}
+
+.active{
+    position: fixed;
+    bottom: 0px;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(8, 8, 8, 0.226);
+    overflow: auto;
+}
+
+.nothing {
+    position: relative;
+    vertical-align: middle;
+    margin:200px auto;
+    width: 225px;
+    height: 16px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nothing span {
+    position: absolute;
+    top: 0;
+    font-size: 22px;
+    color: #000;
+    font-weight: normal;
+    font-family: "Lexend Deca";
+}
+
+span:nth-of-type(1) {
+    left: 0;
+    animation: wave 0.4s ease-in-out infinite alternate 0.05s;
+}
+
+span:nth-of-type(2) {
+    left: 25px;
+    animation: wave 0.4s ease-in-out infinite alternate 0.1s;
+}
+
+span:nth-of-type(3) {
+    left: 50px;
+    animation: wave 0.4s ease-in-out infinite alternate 0.15s;
+}
+
+span:nth-of-type(4) {
+    left: 75px;
+    animation: wave 0.4s ease-in-out infinite alternate 0.2s;
+}
+
+span:nth-of-type(5) {
+    left: 100px;
+    animation: wave 0.4s ease-in-out infinite alternate 0.25s;
+}
+
+span:nth-of-type(6) {
+    left: 125px;
+    animation: wave 0.4s ease-in-out infinite alternate 0.3s;
+}
+
+span:nth-of-type(7) {
+    left: 150px;
+    animation: wave 0.4s ease-in-out infinite alternate 0.35s;
+}
+
+span:nth-of-type(8) {
+    left: 175px;
+    animation: wave 0.4s ease-in-out infinite alternate 0.4s;
+}
+
+span:nth-of-type(9) {
+    left: 200px;
+    animation: wave 0.4s ease-in-out infinite alternate 0.45s;
+}
+
+span:nth-of-type(10) {
+    left: 225px;
+    animation: wave 0.4s ease-in-out infinite alternate 0.5s;
+}
+
+@keyframes wave {
+    0% {
+        top: 0%;
+    }
+
+    100% {
+        top: 100%;
+    }
 }

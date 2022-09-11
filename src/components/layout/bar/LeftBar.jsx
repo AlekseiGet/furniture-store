@@ -1,7 +1,6 @@
 import React from 'react';
 import LeftBarItem from './LeftBarItem';
 
-//<div  >
 
 const LeftBar = (props) => {
     return (

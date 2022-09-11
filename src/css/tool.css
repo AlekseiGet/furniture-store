@@ -5,6 +5,7 @@
 .tool_bar_box {
   width: 100%;
   height: max(52vw, 405px);
+  position: relative;
 }
 
 .tool_bar {

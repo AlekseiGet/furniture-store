@@ -347,6 +347,7 @@ h1,h2,h3,h4{
 }
 
 
+
 .requesites{
     width: 100%;
     height: auto;
@@ -365,7 +366,9 @@ h1,h2,h3,h4{
   opacity: 0;
   padding-top: 10%;
   transition-duration: 1.5s;
-
+ a{
+    display: contents;
+ }
 }
 
 .reviews_item{

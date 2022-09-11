@@ -2,10 +2,12 @@ import React, { useEffect, useState } from 'react';
 import { useRef } from 'react';
 import { useContext } from 'react';
 import { FurnityreBodyIcon } from '../../context/context';
+import { EntranceContext } from '../../context/context';
 import { BrowserRouter, Link } from "react-router-dom";
 
 const Body = () => {
     const [] = useContext(FurnityreBodyIcon);
+    const { choiceFurniture, setChoiceFurniture } = useContext(EntranceContext);
     
     let [visibl, setVisibl] = useState("furniture_item");
     const opacity = useRef();
@@ -26,7 +28,7 @@ const Body = () => {
               
             {FurnityreBodyIcon._currentValue.map( der =>
                 <Link to="/catalog" key={der.image}> 
-                    <div   className={visibl}>
+                    <div onClick={() => setChoiceFurniture(der.id)} className={visibl}>
                         <img src={der.image} alt="ups" />
                         <div className="furniture_item_title">{der.text}</div>
                         <div className="furniture_item_price">от-{der.price} </div>

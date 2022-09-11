@@ -9,6 +9,7 @@ function App() {
   const [isloading, setIsLoading] = useState(true);
   const [choiceFurniture, setChoiceFurniture] = useState("");
   const [burgerClass, setBurgerClass] = useState("bar_box_tool");
+  const [reviewsSee, setReviewsSee] = useState("");
    
  useEffect(() => {
        if (localStorage.getItem( 'auth') ) {
@@ -25,7 +26,9 @@ function App() {
       choiceFurniture,
       setChoiceFurniture,
       burgerClass, 
-      setBurgerClass 
+      setBurgerClass,
+       reviewsSee,
+      setReviewsSee 
     }} > 
     <BrowserRouter>
         <AppRouter/>

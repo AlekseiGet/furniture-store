@@ -1,12 +1,13 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import axios from 'axios';
 import { useState } from 'react';
 import { useFetching } from '../Hooks/useFetching';
 import ReviewsServise from './Api/ReviewsServise';
 import { useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import NewReviews from './NewReviews';
-import upsImage from "../img/ups.jpg"
+import upsImage from "../img/ups.jpg";
+import { EntranceContext } from '../context/context';
 import { getComentCount } from '../utils/comentsPage';
 import { useMemo } from 'react';
 import { useRef } from 'react';
@@ -17,6 +18,7 @@ const Reviews = () => {
     const [limit, setLimit] = useState(4);
     const [page, setPage] = useState(1);
     const [modal, setModal] = useState(false);
+    const { reviewsSee, setReviewsSee } = useContext(EntranceContext);
 
     let pagesArray = [];
   for (let i = 0; i < totalComent; i++) {
@@ -25,9 +27,9 @@ const Reviews = () => {
 
     async function fetchPosts(coment, setComent) {
         const response = await ReviewsServise.getComent(limit, page) 
-      setComent(response.data);
-      const totalComents = (response.headers['x-total-count']) ; 
-      setTotalComent(getComentCount(totalComents, limit) )
+        setComent(response.data);
+        const totalComents = (response.headers['x-total-count']) ; 
+        setTotalComent(getComentCount(totalComents, limit) );
      }
 
     useEffect(() => {
@@ -57,10 +59,11 @@ const Reviews = () => {
         <div ref={opacity} className='requesites'>
             <h2>Отзывы наших клиентов</h2>   
                      {coment.length < 1
-                        ? <h2> Загрузка</h2> 
+                        ? <h2> Загрузка</h2>                        
                         : <div  className={visibl} >
                           {coment.map( e => 
-                          <div key={e.id} className="reviews_item">
+                            <Link to="/reviews" key={e.email} > 
+                              <div onClick={() => setReviewsSee(e.id)} className="reviews_item">
                            <div className="reviews_item_image">
                                       <img src={upsImage} alt="ups" />
                            </div>
@@ -71,6 +74,8 @@ const Reviews = () => {
                               </div>
                             </div>
                           </div>
+
+                          </Link>
                     )}
                         </div>
                     }   

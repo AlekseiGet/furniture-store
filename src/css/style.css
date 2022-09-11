@@ -72,6 +72,7 @@ h1, h2, h3, h4, h5, h6 {
 .tool_bar_box {
   width: 100%;
   height: max(52vw, 405px);
+  position: relative;
 }
 
 .tool_bar {
@@ -784,6 +785,9 @@ h1, h2, h3, h4 {
   opacity: 0;
   padding-top: 10%;
   transition-duration: 1.5s;
+}
+.reviews_conteiner a {
+  display: contents;
 }
 
 .reviews_item {
