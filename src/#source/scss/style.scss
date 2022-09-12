@@ -34,8 +34,12 @@ body{
     border: 1px solid black;
     border-radius: 5px;
 }
-.header{
-   
+.info_for_conteiner{
+     position: absolute;
+        top: 100px;
+        left: 0px;
+    width: 100%;
+    height: 100%;
 }
 h1,h2,h3,h4{
     margin: 0px 10px;
@@ -63,119 +67,6 @@ h1,h2,h3,h4{
     transition-duration: 3.5s;
    
 }
-
-/*
-.bar_box_tool{
-    width: 70%;
-}
-.tool_bar_box{
-    width: 100%;
-    height: max( 52vw, 405px);
-}
-.tool_bar{
-    position: sticky;
-    top: 0px;
-     z-index: 1;
-    width: 100%;
-    height: 100px;
-    padding: 0px 7vw;
-    box-shadow: inset 2px 2px 15px 2px  rgb(221, 223, 228);
-    background: rgba(221, 223, 228, 0.452);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between; 
-    flex-wrap: nowrap; 
-   
-}
-.bar_icon{
-    min-width: 100px;
-    min-height: 100px;
-    border-radius: 50%;
-    overflow: hidden;
-    img{
-       width: 100%; 
-       height: 100%;
-    }
-}
-.bar_tel{
-    color: rgb(230, 89, 89);
-    font-weight: 600;
-    font-style: italic;
-    margin: 35px 6px ;
-    letter-spacing: 2px;
-    font-size: 1.4vw ;
-    white-space: nowrap;
-}
-.bar_tool{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between; 
-    flex-wrap: wrap;
-    align-items: center;
-    font-weight: 900;
-    letter-spacing: 2px;
-    font-size: 1.2em;
-    *{
-        margin: 0px 10px;
-       cursor: pointer; 
-        color: black;
-        text-decoration: none;
-    }  
-}
-.bar_tool_burger{
-    display: none;
-    
-}
-
-.left_bar_conteiner{
-     position: fixed;
-     top: 0px;
-     left: -250px;
-     z-index: 3;
-     width: 300px;
-     height: 100%;
-     overflow: auto;
-     padding-right: 50px;
-     border-radius: 20px;
-     box-shadow: inset 2px 2px 15px 2px  rgb(228, 221, 228);
-     background: white; 
-     transition-duration: 0.4s;
-}
-.left_bar_conteiner:hover{
-      transform: translateX(250px);
-      transition-duration: 0.4s;
-}
-.left_bar_box{
-     width: 250px;
-     height: 100%;
-     padding: 50px 0px;
-     box-shadow: inset 2px 2px 15px 2px  rgb(221, 223, 228);
-     background: white;
-}
-.left_bar_item{
-    width: 100%;
-    height: 50px;
-    margin: 5px 0px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-
-}
-.left_bar_imag{
-    width: 30%;
-    height: 100%;
-    padding-left: 10px;
-    img{
-        height: 100%;
-    }
-}
-.left_bar_text{
-    font-size: medium;
-    margin-left: 5px;
-}
-*/
 
 .body_furniture_item{
     display: flex;

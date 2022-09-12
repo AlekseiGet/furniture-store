@@ -10,7 +10,7 @@ import { EntranceContext } from '../context/context';
 import { useContext } from 'react';
 
 const Home = () => {
-    const { isAuth, setIsAuth } = useContext(EntranceContext)
+  //  const { isAuth, setIsAuth } = useContext(EntranceContext)
 
     return (   
             <div className="wrapper">
