@@ -24,10 +24,10 @@ const Catalog = () => {
     let result = isAuth.filter(function (item, index, array) {
         return item.title === choiceFurniture });
     return (
-        <div>
-            <Header />
+        <div >
+            <Header />        
             {result.length < 1
-                ? <h1 className={classes.catalog_conteiner}>
+                ? <div className={classes.catalog_conteiner}>
                     <h1 class={classes.nothing}>
                         <span>Н</span>
                         <span>И</span>
@@ -40,11 +40,13 @@ const Catalog = () => {
                         <span>Е</span>
                         <span>Т</span>
                     </h1>
-                </h1>
+                    <Footer /> 
+                 </div>
+              
                 
                 : <div className = {classes.catalog_conteiner}>             
-                <div className = {classes.catalog_box}>                  
-                    {result.map(der =>
+                    <div className = {classes.catalog_box}>                  
+                      {result.map(der =>
                         <div className={classes.catalog_content} onClick={() => visibel(der.id)} id={der.id} key={der.id}>
                             <div className={classes.catalog_item}  >
                            <div className = {classes.catalog_item_title}>
@@ -62,10 +64,10 @@ const Catalog = () => {
                     </div>
                  </div>
             )} 
-                </div>                 
-            </div>              
-            }                      
-          <Footer />            
+                    </div> 
+                     <Footer />                 
+                  </div>                          
+             }                      
         </div>
     );
 };

@@ -33,17 +33,17 @@ const Entrance = () => {
                             <MyInput type="current-password" placeholder="Введите пароль" />
                             <div className={classes.entrance_button_enter} >
                                <MyButton >Войти</MyButton>  
-                            </div>
-                                              
+                            </div>                                             
                          </form>
                         <div className={classes.entrance_button_exit}>
                             <MyButton onClick={logout} >Выйти</MyButton>
                         </div>
                         
                     </div>      
-             </div> 
+                </div> 
+             <Footer /> 
             </div>
-            <Footer />           
+                      
         </div>
     );
 };
