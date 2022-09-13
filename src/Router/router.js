@@ -9,7 +9,6 @@ import Reviews from "../Pages/Reviews";
 import Stocks from '../Pages/Stocks';
 
 export const privateRoutes  = [
-    { exact: true, path: "", element: <Home />, key: "9" },
     { exact: true, path: "/home", element: <Home/>, key: "1" },
     { exact: true, path: "/catalog", element: <Catalog/> , key: "2" },
     { exact: true, path: "/entrance", element: <Entrance/> , key: "3" },
@@ -23,7 +22,6 @@ export const privateRoutes  = [
 ]
 
 export const publicRoutes = [
-    { exact: true, path: "", element: <Home />, key: "9" },
     { exact: true, path: "/home", element: <Home/>, key: "1" },
     { exact: true, path: "/entrance", element: <Entrance/> , key: "3" },
     { exact: true, path: "/error", element: <Error/>, key: "7" },
