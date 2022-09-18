@@ -64,7 +64,7 @@
     border-radius: 10px;
 }
 .active{
-    background: rgb(51, 125, 223);
+    background: rgba(152, 195, 252, 0.37);
 }
 .of{
     display: none;

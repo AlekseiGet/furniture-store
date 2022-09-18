@@ -10,9 +10,8 @@ import stocks5 from "../img/stocks/stocks5.jpg";
 import stocks6 from "../img/stocks/stocks6.jpg";
 import MySale from '../components/furniture/MySale';
 
-
-
 const Stocks = () => {
+
     return (
         <div >
             <Header />

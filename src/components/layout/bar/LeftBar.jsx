@@ -5,7 +5,7 @@ import LeftBarItem from './LeftBarItem';
 const LeftBar = (props) => {
     return (
         <div style={props.catalogLeft} className='left_bar_conteiner' onClick={() => props.setCatalogVisibil(false) } >
-            <div onClick={(e) => e.stopPropagation() }>
+            <div >
              <LeftBarItem  />
              </div> 
        </div>
@@ -13,3 +13,5 @@ const LeftBar = (props) => {
 };
 
 export default LeftBar;
+
+// onClick={(e) => e.stopPropagation() }

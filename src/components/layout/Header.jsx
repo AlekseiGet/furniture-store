@@ -14,11 +14,12 @@ const Header = () => {
     useEffect(() => {
        if (catalogVisibil) {
             setCatalogLeft({            
-                transform: 'translateX(250px)',
+                transform: 'translateX(295px)',
                 background: 'rgba(255, 0, 0, 0.699)'
             }) 
         } else {
-             setCatalogLeft({            
+             setCatalogLeft({ 
+                 transform: 'translateX(0px)',           
             })
         }
     }, [catalogVisibil])

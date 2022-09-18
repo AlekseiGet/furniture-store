@@ -5,6 +5,7 @@ import classes from "./Catalog.module.css"
 import { FurnityreItem } from '../context/context';
 import { EntranceContext } from '../context/context';
 import { useState } from 'react';
+import Nothing from '../components/layout/nothing/Nothing';
 
 const Catalog = () => {
     const isAuth = useContext(FurnityreItem );
@@ -28,18 +29,7 @@ const Catalog = () => {
             <Header />        
             {result.length < 1
                 ? <div className={classes.catalog_conteiner}>
-                    <h1 class={classes.nothing}>
-                        <span>Н</span>
-                        <span>И</span>
-                        <span>Ч</span>
-                        <span>Е</span>
-                        <span>Г</span>
-                        <span>О</span>
-                        <span> </span>
-                        <span>Н</span>
-                        <span>Е</span>
-                        <span>Т</span>
-                    </h1>
+                    <Nothing/>
                     <Footer /> 
                  </div>
               

@@ -30,6 +30,8 @@ import wardrobe2 from "../img/body_item/wardrobe2.png";
 
 export const EntranceContext = createContext(null);
 
+export const BasketUser = createContext([]);
+
 
 export const FurnitureBox = createContext([
    {image: sofa, text: "Мягкая мебель", id: 'sofa'},
@@ -76,6 +78,7 @@ export const FurnityreBodySale = createContext([
            str3: "Фасад: Дуб Молочный"
        }, 
        price: "5 000 руб.",
+       id: 1,
        key: 1
       },
       {
@@ -88,6 +91,7 @@ export const FurnityreBodySale = createContext([
            str3: "Фасад: Дуб Молочный"
        },
        price: "13 300 руб.",
+         id: 2,
        key: 2
       },
       {
@@ -100,6 +104,7 @@ export const FurnityreBodySale = createContext([
            str3: "Фасад: Дуб Молочный"
        }, 
        price: "7 560 руб.",
+         id: 3,
        key: 3
       },
       {
@@ -112,6 +117,7 @@ export const FurnityreBodySale = createContext([
            str3: "Фасад: Дуб Молочный"
        }, 
        price: "3 100 руб.",
+         id: 4,
        key: 4
       },
       {
@@ -124,6 +130,7 @@ export const FurnityreBodySale = createContext([
            str3: "Фасад: Дуб Молочный"
        }, 
        price: "2 230 руб.",
+         id: 5,
        key: 5
       },
       {
@@ -136,6 +143,7 @@ export const FurnityreBodySale = createContext([
            str3: "Фасад: Дуб Молочный"
        }, 
        price: "2 740 руб.",
+         id: 6,
        key: 6
       },
       {
@@ -148,6 +156,7 @@ export const FurnityreBodySale = createContext([
            str3: "Фасад: Дуб Молочный"
        },
        price: "4 100 руб.",
+         id: 7,
        key: 7
       },
 ])
