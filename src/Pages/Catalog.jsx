@@ -6,6 +6,7 @@ import { FurnityreItem } from '../context/context';
 import { EntranceContext } from '../context/context';
 import { useState } from 'react';
 import Nothing from '../components/layout/nothing/Nothing';
+import DublButton from '../components/ui/button/DublButton';
 
 const Catalog = () => {
     const isAuth = useContext(FurnityreItem );
@@ -51,6 +52,7 @@ const Catalog = () => {
                            <div className = {classes.catalog_item_price}>
                                {der.price}
                            </div>
+                                  <DublButton num={der.id} />
                     </div>
                  </div>
             )} 

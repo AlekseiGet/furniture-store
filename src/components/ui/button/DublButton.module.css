@@ -1,0 +1,10 @@
+.stocks_sale_button {
+    padding: 5px;
+    margin: 5px 0px;
+    background: rgb(156, 236, 140);
+    color: white;
+    border-radius: 10px;
+}
+.of {
+    display: none;
+}
