@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/furniture-store/static/css/main.570682d5.css",
-    "main.js": "/furniture-store/static/js/main.f6bd1097.js",
+    "main.js": "/furniture-store/static/js/main.9571f364.js",
     "static/media/awards2.jpg": "/furniture-store/static/media/awards2.c5d817bdef411d6d452e.jpg",
     "static/media/awards4.jpg": "/furniture-store/static/media/awards4.1e9b45ad438edaa13d43.jpg",
     "static/media/stock.png": "/furniture-store/static/media/stock.5c247cb9b73c5c9aa698.png",
@@ -59,10 +59,10 @@
     "index.html": "/furniture-store/index.html",
     "static/media/table-3.svg": "/furniture-store/static/media/table-3.2e29a907e489afffa4625b85ed0bbc6a.svg",
     "main.570682d5.css.map": "/furniture-store/static/css/main.570682d5.css.map",
-    "main.f6bd1097.js.map": "/furniture-store/static/js/main.f6bd1097.js.map"
+    "main.9571f364.js.map": "/furniture-store/static/js/main.9571f364.js.map"
   },
   "entrypoints": [
     "static/css/main.570682d5.css",
-    "static/js/main.f6bd1097.js"
+    "static/js/main.9571f364.js"
   ]
 }
