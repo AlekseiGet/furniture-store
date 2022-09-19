@@ -10,6 +10,7 @@ import Reviews from "../Pages/Reviews";
 import Stocks from '../Pages/Stocks';
 
 export const privateRoutes  = [
+    { exact: true, path: "/furniture-store", element: <Entrance />, key: "0.1" },
     { exact: true, path: "", element: <Home/>, key: "1" },
     { exact: true, path: "/catalog", element: <Catalog/> , key: "2" },
     { exact: true, path: "/entrance", element: <Entrance/> , key: "3" },
