@@ -38,7 +38,7 @@ const Catalog = () => {
                 : <div className = {classes.catalog_conteiner}>             
                     <div className = {classes.catalog_box}>                  
                       {result.map(der =>
-                        <div className={classes.catalog_content} onClick={() => visibel(der.id)} id={der.id} key={der.id}>
+                        <div className={classes.catalog_content} onClick={(e) => visibel(der.id)} id={der.id} key={der.id}>
                             <div className={classes.catalog_item}  >
                            <div className = {classes.catalog_item_title}>
                                <h3>{der.title}</h3>  
@@ -52,7 +52,10 @@ const Catalog = () => {
                            <div className = {classes.catalog_item_price}>
                                {der.price}
                            </div>
-                                  <DublButton num={der.id} />
+                            <div onClick={(e) => e.stopPropagation()}>
+                             <DublButton num={der.id} cont={isAuth} />
+                           </div>
+                             
                     </div>
                  </div>
             )} 

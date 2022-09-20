@@ -4,7 +4,7 @@ import classes from "./Nothing.module.css"
 const Nothing = () => {
     return (
         <div>
-            <h1 class={classes.nothing}>
+            <h1 className={classes.nothing}>
                 <span>Н</span>
                 <span>И</span>
                 <span>Ч</span>

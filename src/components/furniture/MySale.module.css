@@ -56,16 +56,5 @@
 .stocks_sale_price {
     text-align: center;
 }
-.stocks_sale_button{
-    padding: 5px;
-    margin: 5px 0px;
-    background: rgb(23, 78, 231);
-    color: white;
-    border-radius: 10px;
-}
-.active{
-    background: rgba(152, 195, 252, 0.37);
-}
-.of{
-    display: none;
-}
+
+

@@ -8,3 +8,6 @@
 .of {
     display: none;
 }
+.active {
+    background: rgba(152, 195, 252, 0.37);
+}

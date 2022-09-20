@@ -7,6 +7,7 @@ import classes from "./DublButton.module.css";
 const DublButton = (props) => {
 
     const basket = useContext(BasketUser);
+    const cont = props.cont;
  
     function choose(p) {
         const response = document.getElementById(p);
@@ -14,12 +15,11 @@ const DublButton = (props) => {
         const res = response.getElementsByTagName('button');
         res[0].classList.add(classes.of);
         res[1].classList.remove(classes.of);
-        
-
-        let result = FurnityreItem._currentValue.find(function (item, index, array) {
+        let result = cont.find(function (item, index, array) {
             return item.id === p;
         });
         basket.push(result);
+       // localStorage.setItem('auth', "true");
     }
 
 
@@ -29,9 +29,9 @@ const DublButton = (props) => {
         const res = response.getElementsByTagName('button');
         res[1].classList.add(classes.of);
         res[0].classList.remove(classes.of);
-        console.log(basket);
         let result = basket.findIndex(item => item.id === p);
         basket.splice(result, 1);
+       // localStorage.removeItem('auth');
     }  
 
     return (

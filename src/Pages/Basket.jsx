@@ -24,7 +24,7 @@ const Basket = () => {
 
                     :<div className={classes.basket_box}>
                     {basket.map(p => 
-                        <div className={classes.basket_item} key={p.key}>
+                        <div className={classes.basket_item} key={p.id}>
                             <div className={classes.basket_image}>
                                 <img className={classes.stocks_sale_image} src={p.image} alt={p.alt} />
                              </div>
